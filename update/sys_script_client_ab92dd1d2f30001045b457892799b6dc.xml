@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make First and Last Name Mandatory</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setMandatory('u_first_name', true);
+    g_form.setMandatory('u_last_name', true);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-28 21:00:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab92dd1d2f30001045b457892799b6dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Make First and Last Name Mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyMobileApp" source="x_408004_mymobilea">82b705512f30001045b457892799b6bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyMobileApp">82b705512f30001045b457892799b6bd</sys_scope>
+        <sys_update_name>sys_script_client_ab92dd1d2f30001045b457892799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-28 21:01:45</sys_updated_on>
+        <table>x_408004_mymobilea_personal_data</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
