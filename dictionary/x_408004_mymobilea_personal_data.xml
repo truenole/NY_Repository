@@ -2,5 +2,6 @@
     <element label="Personal Data" max_length="40" name="x_408004_mymobilea_personal_data" type="collection">
         <element label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element label="Middle Name" max_length="40" name="u_middle_name" type="string"/>
     </element>
 </database>
